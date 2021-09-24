@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightgray;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .bar {
+    float: left;
+    margin: 2px;
+  }
+  a {
+    display: block;
+    padding: 8px;
+    color: lightgray;
+    font-style: inherit;
+    text-decoration: none;
+  }
+  .barra-menu {
+  background-color: transparent;
+  border: grey solid 2px;
+  border-radius: 10px;
+  height: auto;
+  width: 90%;
+  margin: 10px auto 10px auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+  }
+  
+  .layout{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: lightgray;
+  text-align: center;
+  width: auto;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+  }
+  .layout img {
+    max-width:600px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px; 
+  }
+  .not{ 
+    background-color: rgb(44, 44, 44);
+      border-radius: 10px;
+      margin: 10PX;
+      width: 80%;
+      height: auto;
+      color: lightgray;
+      padding: 20px;
+  }
+  h3 {
+    margin: 10px;
+  }
+  #volt{
+    background-color: black;
+      border-radius: 10px;
+      margin: 5PX;
+      height: auto;
+      width: 70px;
+      padding: 5px;
+  }
